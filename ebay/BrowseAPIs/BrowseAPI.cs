@@ -1,5 +1,3 @@
-using System;
-using EbayNet.Authentication;
 /*
 https://developer.ebay.com/api-docs/buy/browse/static/overview.html
 
@@ -11,15 +9,16 @@ cart as well as view the contents of their eBay cart.
 */
 namespace EbayNet.BrowseAPIs
 {
-    public sealed class BrowseAPI
-    {
-        public BrowseAPI(EbayRestClient ebayRestClient)
-        {
-            Item = new Item(ebayRestClient);
-            ItemSummary = new ItemSummary(ebayRestClient);
-        }
+	public sealed class BrowseAPI
+	{
+		public Item Item { get; }
+		public ItemSummary ItemSummary { get; }
 
-        public Item Item { get; }
-        public ItemSummary ItemSummary { get; }
-    }
+
+		public BrowseAPI(EbayRestClient ebayRestClient)
+		{
+			Item = new Item(ebayRestClient);
+			ItemSummary = new ItemSummary(ebayRestClient);
+		}
+	}
 }

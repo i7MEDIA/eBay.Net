@@ -1,25 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <PackageReference Include="Flurl.Http" Version="2.4.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Flurl.Http" Version="2.4.0" />
+	</ItemGroup>
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
 		<IsPackable>true</IsPackable>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>Ebay.Net</PackageId>
-    <Title>Ebay.Net</Title>
-    <Description>A client library for the ebay API targeting .NET standard 2.0.</Description>
-    <Authors>Benjamin Scabbia</Authors>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>eBay.Net</PackageId>
+		<Title>eBay.Net</Title>
+		<Description>A client library for the eBay API targeting .NET standard 2.0.</Description>
+		<Authors>Benjamin Scabbia</Authors>
 		<Copyright>Copyright 2018 (c) Benjamin Scabbia</Copyright>
-    <Company>https://benscabbia.co.uk</Company>
-    <PackageProjectUrl>https://github.com/benscabbia/ebay.net.git</PackageProjectUrl>
+		<Company>https://benscabbia.co.uk</Company>
+		<PackageProjectUrl>https://github.com/benscabbia/ebay.net.git</PackageProjectUrl>
 		<PackageLicenseUrl>https://github.com/benscabbia/ebay.net/blob/master/LICENSE.md</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/benscabbia/ebay.net</RepositoryUrl>
-    <Summary>A client library for the ebay API targeting .NET standard 2.0</Summary>
-    <PackageTags>ebay, ebay.net, api, netstandard, client, library</PackageTags>
-    <PackageReleaseNotes>Initial Release and fixed license url</PackageReleaseNotes>
-    <Version>1.0.1</Version>
-  </PropertyGroup>
+		<RepositoryUrl>https://github.com/benscabbia/ebay.net</RepositoryUrl>
+		<Summary>A client library for the ebay API targeting .NET standard 2.0</Summary>
+		<PackageTags>ebay, ebay.net, api, netstandard, client, library</PackageTags>
+		<PackageReleaseNotes>Initial Release and fixed license url</PackageReleaseNotes>
+		<Version>1.0.1</Version>
+	</PropertyGroup>
+
 </Project>

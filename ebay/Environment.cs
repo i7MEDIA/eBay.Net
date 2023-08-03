@@ -1,8 +1,8 @@
 namespace EbayNet
 {
-    public enum Environment
-    {
-        Sandbox,
-        Production
-    }
+	public enum Environment
+	{
+		Sandbox,
+		Production
+	}
 }

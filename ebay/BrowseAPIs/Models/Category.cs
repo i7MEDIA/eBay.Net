@@ -1,11 +1,11 @@
 namespace BrowseAPIs.Models
 {
-    using Newtonsoft.Json;
+	using Newtonsoft.Json;
 
-    public partial class Category
-    {
-        [JsonProperty("categoryId")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long CategoryId { get; set; }
-    }
+	public partial class Category
+	{
+		[JsonProperty("categoryId")]
+		[JsonConverter(typeof(ParseStringConverter))]
+		public long CategoryId { get; set; }
+	}
 }
